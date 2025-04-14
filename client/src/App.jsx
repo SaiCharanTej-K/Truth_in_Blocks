@@ -14,7 +14,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [transactionPending, setTransactionPending] = useState(false);
 
-  const contractAddress = "0x62c87fDc1B4B3C8fFc2B78ECCcA8B50F3bB4192C";
+  const contractAddress = "0x152C7a1475dF77a9786Fd3568f5615Bd306146e4";
 
   useEffect(() => {
     const connectWallet = async () => {
